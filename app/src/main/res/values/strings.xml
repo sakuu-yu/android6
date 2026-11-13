@@ -1,3 +1,66 @@
 <resources>
-    <string name="app_name">ex6</string>
+    <!-- 应用标题：姓名 + 学号 -->
+    <string name="app_name">王浩宇 + 2024110536</string>
+
+    <!-- 底部导航 -->
+    <string name="nav_profile">个人信息</string>
+    <string name="nav_two_cards">两张牌</string>
+    <string name="nav_three_cards">三张牌</string>
+
+    <!-- 个人信息 -->
+    <string name="title_profile">个人信息</string>
+    <string name="avatar">头像</string>
+    <string name="content_desc_avatar">头像</string>
+    <string name="content_desc_pick_avatar">选择头像</string>
+    <string name="value_not_filled">未填写</string>
+    <string name="value_not_selected">未选择</string>
+    <string name="value_not_saved">尚未保存</string>
+
+    <string name="label_name">姓名：</string>
+    <string name="label_gender">性别：</string>
+    <string name="label_student_id">学号：</string>
+    <string name="label_phone">电话：</string>
+    <string name="label_email">邮件地址：</string>
+    <string name="label_hobbies">爱好：</string>
+    <string name="label_best_two">两张牌：</string>
+    <string name="label_best_three">三张牌：</string>
+    <string name="label_updated">上次保存：</string>
+    <string name="hobby_separator">、</string>
+
+    <string name="hint_name">姓名</string>
+    <string name="hint_student_id">学号</string>
+    <string name="hint_phone">电话号码</string>
+    <string name="hint_email">电子邮件地址</string>
+    <string name="gender_male">男</string>
+    <string name="gender_female">女</string>
+    <string name="hobby_travel">旅游</string>
+    <string name="hobby_reading">阅读</string>
+    <string name="hobby_game">游戏</string>
+    <string name="hobby_shopping">购物</string>
+
+    <string name="btn_edit_profile">修改个人信息</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_ok">确定</string>
+    <string name="toast_avatar_error">无法读取所选图片</string>
+    <string name="toast_save_success">保存成功</string>
+
+    <!-- 翻牌游戏 -->
+    <string name="title_two_cards">两张牌翻牌游戏</string>
+    <string name="title_three_cards">三张牌翻牌游戏</string>
+    <string name="game_rule_two_cards">规则：连续翻开两张牌，两张牌点数相同或花色相同即可配对</string>
+    <string name="game_rule_three_cards">规则：连续翻开三张牌，三张牌点数相同或花色相同即可配对</string>
+    <string name="score_format">得分：%1$d</string>
+    <string name="best_score_format">最高分：%1$d</string>
+    <string name="history_title">最近记录：</string>
+    <string name="history_empty">暂无配对记录</string>
+    <string name="history_match">配对成功 %1$s，当前 %2$d 分</string>
+    <string name="history_miss">配对失败 %1$s，当前 %2$d 分</string>
+    <string name="btn_reset">重置游戏</string>
+    <string name="card_description">第 %1$d 张牌</string>
+
+    <!-- 菜单与关于对话框 -->
+    <string name="menu_about">关于</string>
+    <string name="about_title">关于本应用</string>
+    <string name="about_message">多 Fragment 应用\n\n姓名：王浩宇\n学号：2024110536\n\n实验六：多 Fragment、对象序列化与文件存储\n\n个人信息、两张牌游戏和三张牌游戏的历史数据均通过 ObjectOutputStream / ObjectInputStream 保存和恢复。</string>
 </resources>

@@ -1,7 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Ex6" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <!-- 本应用界面为浅色设计，深色模式下同样保持浅色主题。 -->
+    <style name="Base.Theme.Ex6" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/brand_dark</item>
+        <item name="colorPrimaryVariant">#A65353</item>
+        <item name="colorOnPrimary">@color/white</item>
     </style>
 </resources>

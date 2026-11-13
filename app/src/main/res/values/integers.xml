@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 两张牌游戏：12 张牌，3 列 4 行 -->
+    <integer name="game2_card_count">12</integer>
+    <integer name="game2_card_columns">3</integer>
+
+    <!-- 三张牌游戏：12 张牌，4 列 3 行 -->
+    <integer name="game3_card_count">12</integer>
+    <integer name="game3_card_columns">4</integer>
+</resources>
